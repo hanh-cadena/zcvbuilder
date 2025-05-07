@@ -5,7 +5,7 @@ on:
   workflow_call:
   push:
     tags:
-      - a01-v*
+      - a123456789-v*
 
 permissions:
   contents: write
@@ -43,7 +43,7 @@ jobs:
         with:
           path: ${{ steps.package.outputs.PKG_PATH }}
       - name: Create Release
-        if: startsWith(github.ref_name, 'a01-v')
+        if: startsWith(github.ref_name, 'a123456789-v')
         uses: softprops/action-gh-release@v2
         with:
           files: ${{ steps.package.outputs.PKG_PATH }}

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:a01/src/rust/api/simple.dart';
-import 'package:a01/src/rust/frb_generated.dart';
+import 'package:a123456789/src/rust/api/simple.dart';
+import 'package:a123456789/src/rust/frb_generated.dart';
 
 Future<void> main() async {
   await RustLib.init();
