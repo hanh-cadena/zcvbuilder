@@ -2576,7 +2576,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust_lib_a123456789"
+name = "rust_lib_a1234"
 version = "0.1.0"
 dependencies = [
  "anyhow",
