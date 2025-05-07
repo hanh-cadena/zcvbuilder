@@ -2576,7 +2576,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "rust_lib_app01"
+name = "rust_lib_zcvbuilder"
 version = "0.1.0"
 dependencies = [
  "anyhow",

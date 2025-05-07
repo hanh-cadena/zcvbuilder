@@ -68,7 +68,7 @@ class RustLib extends BaseEntrypoint<RustLibApi, RustLibApiImpl, RustLibWire> {
 
   static const kDefaultExternalLibraryLoaderConfig =
       ExternalLibraryLoaderConfig(
-        stem: 'rust_lib_app01',
+        stem: 'rust_lib_zcvbuilder',
         ioDirectory: 'rust/target/release/',
         webPrefix: 'pkg/',
       );
